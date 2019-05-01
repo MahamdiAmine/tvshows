@@ -1,23 +1,26 @@
 body {
     padding-top: 54px;
 }
-@media (min-width: 992px) {
-    body {
-        padding-top: 56px;
-    }
-}
+
+/*@media (min-width: 992px) {*/
+    /*body {*/
+        /*padding-top: 56px;*/
+    /*}*/
+/*}*/
+
 a {
     color: #551a8b;
 }
-button.close {
-    padding-left: 100%;
-}
+
+
 .movie-row {
     padding-top: 15px;
 }
+
 .modal-header {
     border-bottom: none;
 }
+
 .portfolio-item {
     margin-bottom: 30px;
 }
@@ -25,10 +28,12 @@ button.close {
 .movie-tile:hover {
     cursor: pointer;
 }
+
 .scale-media {
     padding-bottom: 75%;
     position: relative;
 }
+
 .scale-media iframe {
     border: none;
     height: 100%;
@@ -38,7 +43,35 @@ button.close {
     top: 0;
     background-color: white;
 }
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
 
-footer{
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+footer {
     background-color: #000000;
+}
+
+body.footer{
+    margin:0px;
+    padding:0px;
+    min-width:100%;
+    max-width:100%;
+    height:auto;
+}
+
+img {
+    width: 350px;
+    height: 445px;
+}
+
+.card {
+    width: 300px;
+    border-image-width: 9px;
 }
