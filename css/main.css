@@ -1,0 +1,51 @@
+body {
+    padding-top: 54px;
+}
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+a {
+    color: #551a8b;
+}
+button.close {
+    padding-left: 100%;
+}
+.movie-row {
+    padding-top: 15px;
+}
+.modal-header {
+    border-bottom: none;
+}
+.portfolio-item {
+    margin-bottom: 30px;
+}
+#trailer .modal-dialog {
+    margin-top: 200px;
+    padding: 15px;
+}
+#trailer-video {
+    width: 100%;
+    height: 100%;
+}
+.movie-tile:hover {
+    cursor: pointer;
+}
+.scale-media {
+    padding-bottom: 75%;
+    position: relative;
+}
+.scale-media iframe {
+    border: none;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: white;
+}
+
+footer{
+    background-color: #000000;
+}
