@@ -11,8 +11,7 @@
 
 ## Contributing
 
-All contributions are welcome! If you wish to contribute to this project , please create an issue first so that your feature, problem or question can be discussed.
-
+All contributions are welcome!
 ## License
 
 FREE to use  .
