@@ -9,9 +9,6 @@
  1. Use a convivial UI .
  1. Add more features (Search , Rating ..).
 
-## Contributing
-
-All contributions are welcome!
 ## License
 
 FREE to use  .
